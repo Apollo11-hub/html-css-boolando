@@ -27,6 +27,7 @@ ul{
 .item-setup:hover .image-top{
   display: inline;
 }
+
 /* 
 Main
 */
@@ -40,13 +41,17 @@ Main
   
 }
 
-.item-setup img{
+.image-container{
+  position: relative;
+}
+
+.image-container img{
   width:100%;
 }
 
 .sale-box{
   position: absolute;
-  bottom: 10%;
+  bottom: 3%;
   left: 0;
   z-index: 99;
   padding: 1%;
@@ -55,13 +60,15 @@ Main
   background-color: red;
 
 }
+
 .sost-box-alternative{
   z-index: 99;
   background-color:#009882;
 }
+
 .sost-box{
   position: absolute;
-  bottom: 10%;
+  bottom: 3%;
   left: 10%;
   z-index: 99;
   padding: 1%;
