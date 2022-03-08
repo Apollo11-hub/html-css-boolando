@@ -12,9 +12,6 @@ body{
   min-width: 600px;
 }
 
-ul{
-  list-style: none;
-}
 
 .image-top{
   display: none;
@@ -94,8 +91,7 @@ Main
 
 .name{
   text-transform: uppercase;
-  font-weight: 900;
-  }
+}
 
 .price-real{
   display: inline-block;
